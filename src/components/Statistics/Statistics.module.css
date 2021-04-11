@@ -1,0 +1,26 @@
+.statistics{
+	background-color: rgb(189, 177, 67);
+	box-shadow: 0.5rem 0.5rem 0.5rem black;
+	display: flex;
+	flex-direction: column;
+	min-width: max-content;
+	max-width: max-content;
+	border: 0.15rem solid;
+	border-color: black;
+	margin-top: 5rem;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 0.2rem;
+	color: rgb(59, 59, 59);
+	font-size: 3rem;
+}
+.title{
+	padding: 0 1.5rem 0 1.5rem;
+}
+.stat_list{
+	display: flex;
+	flex-direction: column;
+	padding: 0 5rem 0 5rem;
+}
+.percentage{
+	color: blue;
+}

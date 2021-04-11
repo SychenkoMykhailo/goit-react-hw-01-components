@@ -1,0 +1,21 @@
+.transaction_history_header{
+	text-align: left;
+}
+.transaction_history{
+	border: solid;
+	max-width: min-content;
+	min-width: min-content;
+	background-color: rgb(189, 177, 67);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 0.06rem;
+	color: rgb(59, 59, 59);
+	font-size: 3rem;
+	text-shadow: 0.02rem 0.02rem 0.02rem black;
+	box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+.transaction_amount{
+	color: blue;
+}
+.transaction_currency{
+	color: darkgreen;
+}

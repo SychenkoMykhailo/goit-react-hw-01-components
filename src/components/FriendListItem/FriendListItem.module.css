@@ -1,0 +1,22 @@
+.item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(189, 177, 67);
+	box-shadow: 0.1rem 0.1rem 0.1rem black;
+	list-style-type: none;
+	min-width: 8rem;
+	width: 8rem;
+	border: 0.15rem solid;
+	border-color: black;
+	margin-left: 1rem;
+}
+.item:first-child{
+	margin-left: 0;
+}
+.status{
+	opacity: 0.5;
+}
+.name{
+	text-shadow: 0.05rem 0.05rem 0.05rem black;
+}
